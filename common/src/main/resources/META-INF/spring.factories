@@ -1,0 +1,5 @@
+# ????
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    org.wallstreetWolf.common.expection.ExceptionAdvice,\
+    org.wallstreetWolf.common.typeHandler.myMetaObjectHandler,\
+    org.wallstreetWolf.common.response.GlobalResponseBodyAdvice

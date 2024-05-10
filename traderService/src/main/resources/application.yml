@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: traderService
+  cloud:
+    nacos:
+      discovery:
+        username: nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848 # nacos 服务端地址
+  datasource:
+    url: jdbc:mysql://111.231.20.113:3306/TradingDB
+    username: ms
+    password: Trading@sys_9174
+    driver-class-name: org.gjt.mm.mysql.Driver
